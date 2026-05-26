@@ -1,13 +1,11 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.clauxel.zerolangcompiler/zerolangcompiler-mcp",
-  "description": "ZeroLang Agent Compiler MCP is a hosted remote MCP for ZeroLang.",
+  "title": "ZeroLang Agent Compiler MCP",
+  "description": "Paid remote MCP for ZeroLang, structured receipts, usage logs, and audit-ready JSON evidence.",
   "version": "1.0.0",
-  "website_url": "https://zerolangcompiler.clauxel.com/",
-  "repository": {
-    "url": "https://github.com/clauxel/zerolang-agent-compiler-mcp-mcp",
-    "source": "github"
-  },
+  "websiteUrl": "https://zerolangcompiler.clauxel.com/",
+  "documentationUrl": "https://github.com/clauxel/zerolang-agent-compiler-mcp-mcp",
+  "serverCardUrl": "https://zerolangcompiler.clauxel.com/server-card.json",
   "remotes": [
     {
       "type": "streamable-http",
@@ -15,17 +13,15 @@
       "headers": [
         {
           "name": "Authorization",
-          "description": "Bearer token from the product website.",
-          "is_required": true,
-          "is_secret": true
+          "description": "Bearer token from the product website."
         }
       ]
     }
   ],
-  "_meta": {
-    "io.modelcontextprotocol.registry/publisher-provided": {
-      "title": "ZeroLang Agent Compiler MCP MCP",
-      "server_card_url": "https://zerolangcompiler.clauxel.com/server-card.json"
-    }
-  }
+  "tags": [
+    "zerolang",
+    "remote-mcp",
+    "paid-mcp",
+    "ai-agents"
+  ]
 }
