@@ -1,15 +1,12 @@
 # ZeroLang Agent Compiler MCP
 
-ZeroLang Agent Compiler MCP is a hosted remote MCP for ZeroLang.
+Paid remote MCP for ZeroLang, structured receipts, usage logs, and audit-ready JSON evidence.
 
 Website: https://zerolangcompiler.clauxel.com/
-Docs pattern reference: https://github.com/clauxel/MiroFish
-Primary keyword: ZeroLang
-Type: MCP
-Default plan: team
 MCP endpoint: https://zerolangcompiler.clauxel.com/mcp
 Server card: https://zerolangcompiler.clauxel.com/server-card.json
-Registry name: com.clauxel.zerolangcompiler/zerolangcompiler-mcp
-Tools: compile_zerolang_program, run_zerolang_fixtures, explain_compile_error, export_agent_plan_json
+Docs: https://github.com/clauxel/zerolang-agent-compiler-mcp-mcp
 
-Public boundary: docs-only repository; no production source code or secrets.
+Use case: ZeroLang Agent Compiler MCP remote MCP for ZeroLang.
+Authentication: Bearer token required for production use.
+Tools: compile_zerolang_program, run_zerolang_fixtures, explain_compile_error, export_agent_plan_json
